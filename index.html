@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="widget-box">
+    <h1> <img src="1330449.png" style="height: 1em;"> Apple packet price planner</h1>
+    <h2>Apple Buying Data</h2>
+
+    <form onsubmit="event.preventDefault(); calculatePackets();">
+        <label for="boxCost">Box Cost Price:</label>
+        <input type="number" id="boxCost" required>
+      
+        <label for="numApplesInBox">Number of Apples in the Box:</label>
+        <input type="number" id="numApplesInBox" required>
+      
+        <label for="numApplesInPacket">Packet Size:</label>
+        <input type="number" id="numApplesInPacket" required>
+      
+        <label for="profitPercentage">Profit %:</label>
+        <input type="number" id="profitPercentage" required>
+      
+        <button type="submit">Calculate</button>
+      </form>
+      
+      <div>
+        <p>Cost Price per Apple: <span id="costPricePerApple"></span></p>
+        <p>Cost Price per Packet: <span id="costPricePerPacket"></span></p>
+        <p>Number of Packets: <span id="numPackets"></span></p>
+        <p>Selling Price per Packet: <span id="sellingPricePerPacket"></span></p>
+      </div>
+      
+      <script src="./factory-function/apples.js"></script>
+<script src="apples.js"></script>
+
+</body>
+</html>
