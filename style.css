@@ -1,5 +1,8 @@
 body{
-    background-color: #61b97f;
+    /* background-color: #61b97f; */
+    background-image: url("yummy_apples_516572.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1{
     margin-left: auto;
@@ -25,7 +28,7 @@ label {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #039c4f;
+    background-color: #199903;
     border: 1px solid #080808;
     border-radius: 5px;
   }
